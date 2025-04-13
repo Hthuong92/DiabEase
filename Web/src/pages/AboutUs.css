@@ -1,0 +1,71 @@
+.about-us {
+  padding: 50px 40px;
+  text-align: center;
+  background-color: #ffffff; 
+  color: #333;
+}
+
+.logo-container {
+  margin-bottom: 60px;
+}
+
+.logo {
+  max-width: 250px; 
+  height: auto;
+}
+
+.info-boxes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.info-box {
+  background-color: #E3EFFF; 
+  border-radius: 20px;
+  padding: 20px;
+  flex: 1;
+  position: relative;
+  max-width: 300px; 
+  min-width: 250px; 
+  text-align: center;
+}
+
+.info-box h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #005792; 
+}
+
+.info-box p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.info-header {
+  display: block; 
+  margin-bottom: 10px;
+}
+
+.info-header h3 {
+  font-size: 1.5rem; 
+  color: #005792; 
+  text-align: center; 
+}
+
+.info-icon {
+  width: 150px;                 
+  height: auto;
+  position: absolute;
+  left: -40px;
+  top: -60px;
+  z-index: 1000;                
+}
+
+
+.section-title {
+  margin-top: 120px;
+  font-size: 2rem;
+  color: #005792;
+}
